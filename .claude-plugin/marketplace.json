@@ -1,0 +1,24 @@
+{
+  "name": "vibekit",
+  "owner": {
+    "name": "Andreas Demetriou",
+    "email": "androsland@gmail.com"
+  },
+  "metadata": {
+    "description": "The vibekit family: vibekit-code (coding lifecycle) and vibekit-ops (knowledge-work operator plays).",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "vibekit-code",
+      "source": "./plugins/vibekit-code",
+      "description": "Vibe-coding lifecycle skills: spec, calibrate, debug, production-readiness review, agent SOPs, CLAUDE.md."
+    },
+    {
+      "name": "vibekit-ops",
+      "source": "./plugins/vibekit-ops",
+      "description": "Chief-of-staff daily plays: inbox triage, morning briefing, evening debrief, meeting prep, market scan."
+    }
+  ],
+  "description": "The vibekit family: coding-lifecycle and operator knowledge-work skills for Claude Code."
+}

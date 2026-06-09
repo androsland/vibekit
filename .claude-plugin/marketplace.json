@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "The vibekit family: vibekit-code (coding lifecycle) and vibekit-ops (knowledge-work operator plays).",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {

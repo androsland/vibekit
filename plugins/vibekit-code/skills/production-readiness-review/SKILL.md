@@ -10,7 +10,7 @@ description: >-
   Trigger it even if the user only says "can you review this before I ship" —
   this is the review they mean. This is a pre-ship/launch readiness sweep, NOT
   active-incident debugging: if something is currently broken or failing in prod,
-  use systematic-debugging instead.
+  use debugging-discipline instead.
 ---
 
 # Production-Readiness Review

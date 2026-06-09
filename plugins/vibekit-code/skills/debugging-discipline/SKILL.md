@@ -1,18 +1,22 @@
 ---
-name: systematic-debugging
+name: debugging-discipline
 description: >-
-  Debug a problem methodically instead of flailing — likeliest cause first, one
-  change at a time, and a hard escalation trigger when going in circles. Use this
-  WHENEVER the user reports a bug, an error, "it's broken", "works locally but
-  fails in prod", an infinite spinner, a failing build, or a test that won't
-  pass; and ESPECIALLY when they say they've been stuck on the same issue for a
-  while or keep trying the same fix. Trigger it proactively the moment a debugging
-  loop starts repeating itself — recognizing the stuck loop early is half the value.
-  This owns ACTIVE failures (something is broken right now); a pre-ship readiness
-  sweep with nothing currently failing belongs to production-readiness-review.
+  A lightweight, self-contained debugging discipline for everyday "it's broken" —
+  likeliest cause first, one change at a time, a hard stuck-loop trigger when going
+  in circles. Needs no planning workflow, session-state files, or extra tooling; it's
+  the default for a normal single-session bug. Use this WHENEVER the user reports a
+  bug, an error, "it's broken", "works locally but fails in prod", an infinite
+  spinner, a failing build, or a test that won't pass; and ESPECIALLY when they say
+  they've been stuck on the same issue for a while or keep trying the same fix.
+  Trigger it proactively the moment a debugging loop starts repeating itself. This
+  owns ACTIVE failures
+  (something is broken right now); a pre-ship readiness sweep with nothing currently
+  failing belongs to production-readiness-review. Prefer this over heavier stateful
+  or workflow-based debug processes for an ordinary bug; reach for
+  those only when a formal multi-session debugging workflow is already in use.
 ---
 
-# Systematic Debugging
+# Debugging Discipline
 
 ## What this is for
 

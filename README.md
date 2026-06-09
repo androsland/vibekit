@@ -3,7 +3,7 @@
 A Claude Code plugin marketplace. The `vibekit` family bundles two plugins:
 
 - **vibekit-code** — coding-lifecycle skills (6): `spec-first-build`, `calibration-battery`,
-  `systematic-debugging`, `production-readiness-review`, `agent-sop-generator`,
+  `debugging-discipline`, `production-readiness-review`, `agent-sop-generator`,
   `claude-md-manager`. Invoked as `vibekit-code:<skill>`.
 - **vibekit-ops** — knowledge-work operator skills (1): `chief-of-staff-plays`,
   invoked as `vibekit-ops:chief-of-staff-plays`. Seed for a future operator suite.
@@ -20,7 +20,7 @@ A Claude Code plugin marketplace. The `vibekit` family bundles two plugins:
 ```
 
 Verify with `/plugin` (both should show installed) and `/skills` (skills appear
-namespaced, e.g. `vibekit-code:systematic-debugging`). Force one directly with
+namespaced, e.g. `vibekit-code:debugging-discipline`). Force one directly with
 `/vibekit-code:production-readiness-review`.
 
 > Note: this marketplace uses relative plugin paths (`./plugins/...`), which resolve

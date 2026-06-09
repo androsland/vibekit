@@ -1,0 +1,19 @@
+{
+  "name": "vibekit-code",
+  "version": "1.0.0",
+  "description": "Vibe-coding lifecycle skills: spec-first scaffolding, repo calibration, systematic debugging, pre-ship production-readiness review, agent SOP generation, and CLAUDE.md context management.",
+  "license": "MIT",
+  "author": {
+    "name": "Andreas Demetriou",
+    "email": "androsland@gmail.com"
+  },
+  "repository": "https://github.com/androsland/vibekit",
+  "keywords": [
+    "vibe-coding",
+    "spec",
+    "debugging",
+    "production-readiness",
+    "claude-md",
+    "code-review"
+  ]
+}
